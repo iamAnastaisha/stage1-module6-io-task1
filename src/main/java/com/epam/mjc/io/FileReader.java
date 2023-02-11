@@ -26,6 +26,7 @@ public class FileReader {
                 profile.setPhone(Long.parseLong(phone));
             }
         } catch (IOException ex) {
+
             System.err.println(ex);
         }
         return profile;
